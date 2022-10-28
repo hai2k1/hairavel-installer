@@ -1,14 +1,14 @@
 <?php
 
-namespace duxphp\DuxravelInstaller\Controllers;
+namespace haibase\HairavelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use duxphp\DuxravelInstaller\Helpers\DatabaseManager;
-use duxphp\DuxravelInstaller\Helpers\InstalledFileManager;
+use haibase\HairavelInstaller\Helpers\DatabaseManager;
+use haibase\HairavelInstaller\Helpers\InstalledFileManager;
 
 class UpdateController extends Controller
 {
-    use \duxphp\DuxravelInstaller\Helpers\MigrationsHelper;
+    use \haibase\HairavelInstaller\Helpers\MigrationsHelper;
 
     /**
      * Display the updater welcome page.

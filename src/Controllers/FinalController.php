@@ -1,6 +1,6 @@
 <?php
 
-namespace duxphp\DuxravelInstaller\Controllers;
+namespace haibase\HairavelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Artisan;

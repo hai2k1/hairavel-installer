@@ -1,11 +1,11 @@
 <?php
 
-namespace duxphp\DuxravelInstaller\Providers;
+namespace haibase\HairavelInstaller\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use duxphp\DuxravelInstaller\Middleware\canInstall;
-use duxphp\DuxravelInstaller\Middleware\canUpdate;
+use haibase\HairavelInstaller\Middleware\canInstall;
+use haibase\HairavelInstaller\Middleware\canUpdate;
 
 class HairavelInstallerServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace duxphp\DuxravelInstaller\Events;
+namespace haibase\HairavelInstaller\Events;
 
 class InstallSeed
 {

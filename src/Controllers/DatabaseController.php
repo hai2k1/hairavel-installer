@@ -1,9 +1,9 @@
 <?php
 
-namespace duxphp\DuxravelInstaller\Controllers;
+namespace haibase\HairavelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use duxphp\DuxravelInstaller\Events\InstallSeed;
+use haibase\HairavelInstaller\Events\InstallSeed;
 useException;
 use Illuminate\Support\Facades\Artisan;
 use Symfony\Component\Console\Output\BufferedOutput;

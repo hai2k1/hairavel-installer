@@ -1,6 +1,6 @@
 <?php
 
-namespace duxphp\DuxravelInstaller\Middleware;
+namespace haibase\HairavelInstaller\Middleware;
 
 use Closure;
 use Redirect;

@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['prefix' => 'install', 'as' => 'DuxravelInstaller::', 'namespace' => 'duxphp\DuxravelInstaller\Controllers', 'middleware' => ['web', 'install']], function () {
+Route::group(['prefix' => 'install', 'as' => 'DuxravelInstaller::', 'namespace' => 'haibase\HairavelInstaller\Controllers', 'middleware' => ['web', 'install']], function () {
     Route::get('/', [
         'as' => 'welcome',
         'uses' => 'WelcomeController@welcome',
@@ -15,7 +15,7 @@ Route::group(['prefix' => 'install', 'as' => 'DuxravelInstaller::', 'namespace' 
         'as' => 'environmentSave',
         'uses' => 'EnvironmentController@save',
     ]);
-    
+
     Route::get('requirements', [
         'as' => 'requirements',
         'uses' => 'RequirementsController@requirements',
