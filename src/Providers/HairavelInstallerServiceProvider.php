@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 use duxphp\DuxravelInstaller\Middleware\canInstall;
 use duxphp\DuxravelInstaller\Middleware\canUpdate;
 
-class DuxravelInstallerServiceProvider extends ServiceProvider
+class HairavelInstallerServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
