@@ -4,7 +4,7 @@ namespace haibase\HairavelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
 use haibase\HairavelInstaller\Events\InstallSeed;
-useException;
+use Exception;
 use Illuminate\Support\Facades\Artisan;
 use Symfony\Component\Console\Output\BufferedOutput;
 
